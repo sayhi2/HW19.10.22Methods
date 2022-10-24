@@ -44,23 +44,26 @@
                 int year = 1972;
                 printIsLeapYear(year);
                 figureOsVersionOut(1, 2012);
-                calculateDeliveryTime(deliveryDistance);
-
+                calculateDeliveryTime(conddeliveryDistance);
+                int deliveryDistance = 99;
             }
 
             // Task 3
-            public static void calculateDeliveryTime (int deliveryDistance,int delivery) {
-                delivery = 1;
-                int deliveryDistance = 95;
-                if (deliveryDistance > 20) {
-                    delivery++;
-                }
-                if (deliveryDistance > 60) {
-                    delivery++;
-                }
-                System.out.println(" Потребуется дней " + delivery);
+            public static void calculateDeliveryTime(int deliveryDistance) {
 
-            }
+                int delivery = 1;
+                deliveryDistance = 99;
+                if (deliveryDistance > 20) {
+                    delivery ++;
+                    {
+                        if (deliveryDistance > 60 && deliveryDistance <= 100) {
+                            delivery++;
+                        } else {
+                            System.out.println(" Доставка не продуктивна ");
+                        }
+                        System.out.println(" Потребуется " + delivery + "дней ");
+                    }}
+                    }
             }
 
 
