@@ -44,15 +44,15 @@
                 int year = 1972;
                 printIsLeapYear(year);
                 figureOsVersionOut(1, 2012);
-                calculateDeliveryTime(conddeliveryDistance);
-                int deliveryDistance = 99;
+                calculateDeliveryTime(90);
+
             }
 
             // Task 3
             public static void calculateDeliveryTime(int deliveryDistance) {
 
                 int delivery = 1;
-                deliveryDistance = 99;
+
                 if (deliveryDistance > 20) {
                     delivery ++;
                     {
@@ -61,7 +61,7 @@
                         } else {
                             System.out.println(" Доставка не продуктивна ");
                         }
-                        System.out.println(" Потребуется " + delivery + "дней ");
+                        System.out.println(" Потребуется " + delivery + " дней ");
                     }}
                     }
             }
