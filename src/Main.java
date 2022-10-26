@@ -2,8 +2,11 @@
 
         //HW 16.10.22
 
+        import org.w3c.dom.ls.LSOutput;
+
         import java.time.LocalDate;
         public class Main {
+
 
 
 
@@ -46,6 +49,7 @@
                 figureOsVersionOut(1, 2012);
                 calculateDeliveryTime(90);
 
+
             }
 
             // Task 3
@@ -64,7 +68,11 @@
                         System.out.println(" Потребуется " + delivery + " дней ");
                     }}
                     }
+
             }
+
+
+
 
 
 
